@@ -277,6 +277,13 @@ p {
     justify-content: space-between;
 }
 
+#sales {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+}
+
 #to-do {
     display: flex;
     flex-direction: column;
@@ -299,6 +306,14 @@ p {
     font-weight: bold;
     color: black;
 }
+/* #odeLink {
+    position: absolute;
+    bottom: 5;
+    right: 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+} */
 #workLink:hover {
     text-decoration: underline;
 }
@@ -649,14 +664,21 @@ footer p:hover{
         background-color: #ffffff;
         margin: 0px 200px;
         width: 100%;
-    
         display: flex;
         flex-direction: column;
         justify-content: center;
 
         
     }
-    
+    #sales {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: space-between;
+        justify-content: space-between;
+        width:100%;
+    }
+
     #weather {
         display: flex;
         position: relative;
@@ -664,8 +686,6 @@ footer p:hover{
         align-items: space-between;
         justify-content: space-between;
         width:100%;
-     
-       
     }
 
 
