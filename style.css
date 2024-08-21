@@ -326,10 +326,12 @@ p {
 #blogLink a {
     color: black;
     text-decoration: none;
+    padding-bottom: 5px;
 }
 
 #blogLink a:hover {
     text-decoration: underline;
+    color:#fff175
 }
 
 
@@ -714,10 +716,12 @@ footer p:hover{
     #blogLink a {
         color: black;
         text-decoration: none;
+        padding-bottom: 5px;
     }
     
     #blogLink a:hover {
         text-decoration: underline;
+        color: #fff175;
     }
 
     
